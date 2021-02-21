@@ -1,7 +1,5 @@
 FROM arm64v8/python:3.7-buster
 
-WORKDIR /raspberrypi
-
 RUN apt-get update
 
 RUN apt-get install -y bluez bluetooth
